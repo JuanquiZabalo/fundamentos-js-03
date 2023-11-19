@@ -5,3 +5,13 @@ const listaCuadrados = listaNumeros.map((num)=>{
 })
 
 console.log(listaCuadrados)
+
+const listaNumeros2 = [7, 8, 9, 10]
+const listaCuadrados2 = listaNumeros2.map(cuadrado)
+
+function cuadrado(numero= Number){
+    return numero*numero
+}
+
+
+console.log(listaCuadrados2)
